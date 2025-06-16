@@ -1,2 +1,2 @@
 Add-Type -AssemblyName System.Windows.Forms
-[System.Windows.MessageBox]::Show('HelloWorld')
+[System.Windows.Forms.MessageBox]::Show('Hello World', 'Payload')
